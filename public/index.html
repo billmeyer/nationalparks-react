@@ -28,15 +28,6 @@
 </head>
 <body>
 <noscript>You need to enable JavaScript to run this app.</noscript>
-<script src="https://cdn.signalfx.com/o11y-gdi-rum/latest/splunk-otel-web.js" crossorigin="anonymous"></script>
-<script>
-    SplunkRum.init({
-        beaconUrl: "https://rum-ingest.%REACT_APP_RUM_REALM%.signalfx.com/v1/rum",
-        rumAuth: "%REACT_APP_RUM_ACCESS_TOKEN%",
-        app: "nationalparks-react",
-        environment: "development"
-    });
-</script>
 <div id="root"></div>
 <!--
   This HTML file is a template.
